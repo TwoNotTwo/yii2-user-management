@@ -1,0 +1,31 @@
+{
+    "name": "twonottwo/yii2-user-management",
+    "description": "User management in YII2",
+    "keywords": ["yii", "user-management"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TwoNotTwo",
+            "email": "2not2.github@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/TwoNotTwo/yii2-user-management"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+        
+    },
+    "support": {
+        "issues": "https://github.com/twonottwo/yii2-user-management/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "twonottwo\\user_management\\": ""
+        }
+    }
+}
